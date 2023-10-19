@@ -3,6 +3,7 @@ import TodoForm from './components/TodoForm';
 import Todo from "./components/Todo";
 import Search from './components/search';
 import "./App.css";
+import Filter from './components/Filter';
 
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
   return <div className='app'>
     <h1>Lista de Tarefas</h1>
     <Search search={search} setSearch={setSearch}/>
+    <Filter />
     <div className="todo-list">
       {todos
         .filter((todo) => 

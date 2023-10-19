@@ -37,7 +37,7 @@ button {
   background-color: #333974;
   color: #FFF;
   padding: 5px 10px;
-  margin-left: 10px;
+  margin-right: 10px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -80,8 +80,25 @@ button:hover {
 
 input, select {
   padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border: 1px solid #DDD;
   border-radius: 3px;
   width: 100%;
+}
+
+.filter, 
+.search {
+  border-bottom: 1px solid #555;
+  /* padding-top: 10px; */
+  margin-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div {
+  flex: 1 1 0;
 }
