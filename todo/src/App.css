@@ -4,11 +4,9 @@ body {
   background-color: #f4f4f4;
   padding: 30px;
   color: #333;
-  background: url('./img/bg.jpeg') no-repeat fixed;
+  background: url('./img/bg1.jpg') no-repeat fixed;
   background-size: cover; 
   background-position: center;
-  /* 
-  */
 }
 
 .app {
